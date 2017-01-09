@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/game.css">
+    <script src="js/hitPix.js"></script>
+    <script src="js/run.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <!--游戏场景-->
+    <canvas>
+    您的浏览器不支持canvas，请升级浏览器。
+    </canvas>
+    <!--人物-->
+    <img src="img/qilin1.png" alt="" class="run" hidden>
+    <img src="img/qilin2.png" alt="" class="run" hidden>
+    <img src="img/qilin3.png" alt="" class="run" hidden>
+    <img src="img/qilin4.png" alt="" class="run" hidden>
+    <img src="img/qilin5.png" alt="" class="run" hidden>
+    <img src="img/qilin7.png" alt="" class="run" hidden>
+    <img src="img/qilin8.png" alt="" class="run" hidden>
+    <img src="img/qilin9.png" alt="" class="run" hidden>
+    <img src="img/qilin10.png" alt="" class="run" hidden>
+    <img src="img/qilin11.png" alt="" class="jump" hidden>
+
+    <!--开始-->
+    <div class="table">
+        葫芦娃跑酷<div class="start">开始游戏</div>
+    </div>
+    <!--遮罩-->
+    <div class="mask">
+        <div class="moon"></div>
+    </div>
+    <!--提示-->
+    <div class="notice" hidden>
+        <!--失败提示-->
+        <div class="tishi1"></div>
+        <ul></ul>
+        <div class="ts-btn1"></div>
+    </div>
+    <!--食物-->
+    <img src="img/sw1.png" alt="" class="food" hidden>
+    <img src="img/sw2.png" alt="" class="food" hidden>
+    <img src="img/sw3.png" alt="" class="food" hidden>
+    <img src="img/sw4.png" alt="" class="food" hidden>
+    <img src="img/sw5.png" alt="" class="food" hidden>
+    <!--障碍物-->
+    <img src="img/gw1.png" alt="" class="hinder" hidden >
+    <img src="img/gw2.png" alt="" class="hinder"  hidden>
+    <img src="img/gw3.png" alt="" class="hinder" hidden >
+    <img src="img/gw4.png" alt="" class="hinder" hidden >
+    <img src="img/gw5.png" alt="" class="hinder" hidden >
+    <img src="img/gw6.png" alt="" class="hinder"  hidden>
+    <!--子弹-->
+    <img src="img/zd1.png" alt="" class="zidanp">
+    <!--提示框-->
+    <div class="fenshu">0</div>
+    <div class="juli">0</div>
+    <div class="life">3</div>
+    <div class="set"></div>
+    <img src="img/set.png" alt="" class="set">
+    <!--音效-->
+    <audio src="music/foot.wav" class="foot-m" loop></audio>
+    <audio src="music/flay.mp3" class="flay-m"></audio>
+</body>
+</html>
